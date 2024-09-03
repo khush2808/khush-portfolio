@@ -41,15 +41,6 @@ const toolsAndTechnologies = [
   { title: 'Sass', src : 'https://sass-lang.com/assets/img/styleguide/seal-color.png'},
 
   
-
-
-
-  { title: 'Numpy', src : 'https://logosandtypes.com/wp-content/uploads/2024/02/NumPy.png'},
-
-  { title: 'Pandas', src : 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHZd37oUzVXPHOsl-Ygg5hzYpZs7Djvk-vSw&s'},
-
-  { title: 'Matplotlib', src : 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Created_with_Matplotlib-logo.svg/2048px-Created_with_Matplotlib-logo.svg.png'},
-
   
 
   

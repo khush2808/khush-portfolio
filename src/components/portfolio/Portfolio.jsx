@@ -29,28 +29,12 @@ const items = [
   },
 
   {
-    id: 4,
-    title: "Movie Stream Web",
-    img: "./movieStream.png",
-    desc: "Created a comprehensive movie streaming website featuring an extensive database of movies and TV shows, both recent and classic, complete with popularity rankings and ratings. The site also provides detailed information on actors and actresses, enhancing the user experience with rich content and seamless navigation.",
-    link: "https://movieestream.netlify.app/",
-  },
-
-  {
-    id: 5,
-    title: "Eye-Spy",
-    img: "./eyespy-project.png",
-    desc: "Our project empowers the visually impaired by utilizing ML models to analyze real-time environmental data from a camera attached to their attire. Simultaneously, caregivers can remotely monitor the live feed on a website.",
-    link: "https://sajal072004.github.io/eyesspy/",
-  },
-
-  {
-    id: 6,
-    title: "Weather App",
-    img: "./weather.png",
-    desc: "I have developed a fully responsive weather app that provides weather updates and a 5-day forecast. It also includes a feature that uses your current location, similar to Google Maps, to provide accurate weather information for your exact location.",
-    link: "https://sajal072004.github.io/Weather-App/",
-  }
+		id:4,
+		title:"Sync Stream",
+		img: "./syncstream.png",
+		desc:"SyncStream is a video streaming platform that allows users video call. Developed using the MERN stack, the platform features a user-friendly interface with a wide range of content categories. Users can create personalized watchlists, rate movies, and leave reviews. With secure authentication and integrated payment options, SyncStream offers a seamless streaming experience for users worldwide.",
+		link:"https://sync-stream-app.vercel.app",
+	}
 ];
 
 const Single = ({ item }) => {

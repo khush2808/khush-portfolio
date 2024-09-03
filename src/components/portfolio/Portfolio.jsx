@@ -25,7 +25,7 @@ const items = [
     title: "Crypto-Tracker",
     img: "./crypto.png",
     desc: "I have developed a comprehensive website for tracking cryptocurrency trends. This platform provides detailed information on all bitcoins available in the market, featuring interactive graphs that display price movements, total trading volume, and market capitalization. Users can monitor market changes over various timeframes,enabling them to make informed investment decisions based on historical data and trends.",
-    link: "https://cryptotracker-lovat.vercel.app/",
+    link: "https://crypto-tracker-loval.vercel.app/",
   },
 
   {

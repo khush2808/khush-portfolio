@@ -9,7 +9,7 @@ const items = [
     title: "Finance Mate",
     img: "./FinanceMate.png",
     desc: "FinanceMate is a financial management tool that helps users track budgets, expenses, and overall financial health. Developed using the MERN stack, the platform offers an intuitive dashboard with interactive charts and tables. Users can manage budgets, categorize expenses, and view detailed spending reports. With secure authentication and a user-friendly interface, FinanceMate simplifies financial planning and promotes better money management.",
-    link: "https://financemate.onrender.com",
+    link: "https://finance-mate.vercel.app/",
   },
 
   {
@@ -81,7 +81,7 @@ const Portfolio = () => {
     <div className="portfolio" ref={ref}>
       <div className="progress">
         <h1>Featured Works</h1>
-        <motion.div style={{ scaleX }} className="progressBar"></motion.div>
+        <motion.div style={{ scaleX }} className="progressBar "></motion.div>
       </div>
       {items.map((item) => (
         <Single item={item} key={item.id} />

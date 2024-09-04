@@ -63,7 +63,7 @@ const Contact = () => {
         </motion.div>
         <motion.div className="item" variants={variants}>
           <h2>LinkedIn</h2>
-          <span><a href="https://www.linkedin.com/in/khush-shah-a32a38248/" target="_blank">Khush Shah</a></span>
+          <span><a href="https://www.linkedin.com/in/khush-shah-a32a38248/" target="_blank" rel="noreferrer">Khush Shah</a></span>
         </motion.div>
         <motion.div className="item" variants={variants}>
           <h2>Phone</h2>

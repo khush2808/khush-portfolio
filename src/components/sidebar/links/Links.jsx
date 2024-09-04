@@ -1,4 +1,5 @@
 import {motion} from "framer-motion"
+import { FaExternalLinkAlt } from "react-icons/fa";
 
 const variants = {
   open:{
@@ -28,13 +29,19 @@ const itemvariants = {
 
 const Links = () => {
 
-  const items = [ "Homepage" , "Skills" , "Certification" , "Portfolio" , "Contact"];
+  const items = [ "Homepage" , "Skills" , "Certification" , "Portfolio" , "Contact","Resume"];
 
 
   return (
-    <motion.div className="links" variants={variants}>{items.map(item=>(
+    <motion.div className="links" variants={variants}>{items.map((item)=>{ if(item === "Resume"){ return (
+      <motion.a href={`https://drive.google.com/file/d/1l2jwt9Y4j8dLHvFhMI1w8_NWw2F2gQlr/view?usp=drive_link`} target = "_blank" key={item} variants = {itemvariants} whileHover={{scale:1.1}} whileTap={{scale:0.95}}>{item } < FaExternalLinkAlt />
+</motion.a>
+
+    )}
+			else return (
       <motion.a href={`#${item}`} key={item} variants = {itemvariants} whileHover={{scale:1.1}} whileTap={{scale:0.95}}>{item}</motion.a>
-    ))}</motion.div>
+
+    )})}</motion.div>
   )
 }
 

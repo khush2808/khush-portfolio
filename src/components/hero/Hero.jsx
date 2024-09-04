@@ -1,6 +1,6 @@
 import "./hero.scss";
 import { motion } from "framer-motion";
-import { Link, Element } from "react-scroll";
+import { FaExternalLinkAlt } from "react-icons/fa";
 
 const textVariants = {
   initial: {
@@ -68,6 +68,14 @@ const Hero = () => {
               Contact Me
             </motion.button>
             </a>
+
+						<a href="https://drive.google.com/file/d/1l2jwt9Y4j8dLHvFhMI1w8_NWw2F2gQlr/view?usp=sharing" target = "_blank" rel = "noreferrer">
+            <motion.button
+              variants={textVariants}
+            >
+              My Resume <FaExternalLinkAlt />
+            </motion.button>
+            </a>
             
 
 
@@ -87,7 +95,7 @@ const Hero = () => {
         initial="initial"
         animate="animate"
       >
-        Web developer UI Designer
+        Web developer 
       </motion.div>
       <div className="imageContainer">
         <img src="/mygoodphoto.png" alt="" />

@@ -21,6 +21,7 @@
 
     @include mobile {
       width: 200px;
+			z-index:1000;
     }
 
     .links{

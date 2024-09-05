@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import { FaExternalLinkAlt } from "react-icons/fa";
 
 const textVariants = {
+	lineHeight: 1 ,
   initial: {
     x: -500,
     opacity: 0,

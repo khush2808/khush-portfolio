@@ -82,7 +82,7 @@ const Hero = () => {
               variants={textVariants} className="resume"
             >
               My Socials 
-							<FaExternalLinkAlt /><FaExternalLinkAlt />
+							<FaExternalLinkAlt />
             </motion.button>
             </a>
 						

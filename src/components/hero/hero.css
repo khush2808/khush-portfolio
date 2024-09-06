@@ -28,9 +28,14 @@ section {
   overflow: hidden;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1224px) {
   img {
     display: none;
+  }
+}
+@media (max-width: 738px) {
+  img {
+    display: inline;
   }
 }
 .social {
@@ -44,9 +49,9 @@ section {
   height: 50px;
   border-radius: 10px;
 }
-@media screen and (min-width(968px)) {
+@media (max-width: 738px) {
   .social img {
-    display: none;
+    display: inline;
   }
 }
 
@@ -143,7 +148,7 @@ section {
   margin-right: 150px;
   margin-bottom: 150px;
 }
-@media (max-width: 1024px) {
+@media (max-width: 1224px) {
   .hero .imageContainer {
     height: 50%;
     width: 100%;

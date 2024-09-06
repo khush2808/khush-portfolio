@@ -1,0 +1,9 @@
+.certi {
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+.certi h1 {
+  text-align: center;
+}/*# sourceMappingURL=certification.css.map */

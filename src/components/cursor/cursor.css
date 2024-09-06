@@ -28,18 +28,16 @@ section {
   overflow: hidden;
 }
 
-@mixin mobile {
-  @media (max-width: 738px) {
-    @content;
-  }
+.cursor {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 2px solid white;
+  position: fixed;
+  z-index: 999;
 }
-@mixin tablet {
-  @media (max-width: 1224px) {
-    @content;
+@media (max-width: 738px) {
+  .cursor {
+    display: none;
   }
-}
-@mixin desktop {
-  @media (max-width: 1366px) {
-    @content;
-  }
-}
+}/*# sourceMappingURL=cursor.css.map */

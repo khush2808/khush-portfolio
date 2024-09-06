@@ -1,0 +1,143 @@
+html {
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "DM Sans", sans-serif;
+}
+
+body {
+  background-color: #0c0c1d;
+  color: lightgray;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+section {
+  height: 100vh;
+  width: 100vw;
+  scroll-snap-align: center;
+  overflow: hidden;
+}
+
+.contact {
+  height: 100%;
+  max-width: 1366px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+@media (max-width: 738px) {
+  .contact {
+    width: 100%;
+    padding: 5px;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 100px;
+  }
+}
+.contact .textContainer {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  z-index: 9999;
+}
+@media (max-width: 738px) {
+  .contact .textContainer {
+    gap: 10px;
+    text-align: center;
+    align-items: center;
+    margin-top: -50px;
+  }
+}
+.contact .textContainer h1 {
+  font-size: 100px;
+  line-height: 88px;
+  z-index: 9900;
+}
+@media (max-width: 738px) {
+  .contact .textContainer h1 {
+    font-size: 36px;
+    display: none;
+  }
+}
+.contact .textContainer span {
+  font-weight: 300;
+  cursor: pointer;
+}
+@media (max-width: 738px) {
+  .contact .textContainer h2 {
+    font-size: 24px;
+  }
+}
+.contact .formContainer {
+  flex: 1;
+  position: relative;
+  z-index: 9900;
+}
+@media (max-width: 738px) {
+  .contact .formContainer {
+    padding: 50px;
+    width: 100%;
+    position: absolute;
+  }
+}
+.contact .formContainer .phoneSvg {
+  stroke: orange;
+  position: absolute;
+  margin: auto;
+  z-index: -1;
+}
+@media (max-width: 738px) {
+  .contact .formContainer .phoneSvg {
+    margin-left: -30px;
+    margin-top: 200px;
+    display: none;
+  }
+}
+.contact .formContainer form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+@media (max-width: 738px) {
+  .contact .formContainer form {
+    margin-top: 100px;
+  }
+}
+.contact .formContainer form input,
+.contact .formContainer form textarea {
+  padding: 20px;
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  border-radius: 5px;
+}
+@media (max-width: 738px) {
+  .contact .formContainer form input,
+  .contact .formContainer form textarea {
+    padding: 10px;
+  }
+}
+.contact .formContainer form button {
+  padding: 20px;
+  border: none;
+  background-color: orange;
+  cursor: pointer;
+  font-weight: 500;
+}
+@media (max-width: 738px) {
+  .contact .formContainer form button {
+    padding: 10px;
+  }
+}/*# sourceMappingURL=contact.css.map */

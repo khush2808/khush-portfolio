@@ -1,0 +1,55 @@
+html {
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "DM Sans", sans-serif;
+}
+
+body {
+  background-color: #0c0c1d;
+  color: lightgray;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+section {
+  height: 100vh;
+  width: 100vw;
+  scroll-snap-align: center;
+  overflow: hidden;
+}
+
+.skills {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  margin-top: 3vh;
+}
+.skills .firsth {
+  margin-top: 10vh;
+}
+.skills h1 {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 5vh;
+  font-size: 30px;
+}
+@media (max-width: 738px) {
+  .skills h1 {
+    font-size: 25px;
+    margin-bottom: 0vh;
+    margin-top: 0px;
+  }
+}
+.skills .skills-section {
+  flex: 1;
+}/*# sourceMappingURL=skills.css.map */

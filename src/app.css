@@ -26,20 +26,4 @@ section {
   width: 100vw;
   scroll-snap-align: center;
   overflow: hidden;
-}
-
-@mixin mobile {
-  @media (max-width: 738px) {
-    @content;
-  }
-}
-@mixin tablet {
-  @media (max-width: 1224px) {
-    @content;
-  }
-}
-@mixin desktop {
-  @media (max-width: 1366px) {
-    @content;
-  }
-}
+}/*# sourceMappingURL=app.css.map */

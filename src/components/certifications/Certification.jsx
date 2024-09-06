@@ -9,7 +9,7 @@ import CertificationCards from './CertificationCards';
 const certifications = [
 
   
-  { src: '0-1certificate.png' , link: 'https://www.udemy.com/certificate/UC-cb27a48e-11b9-4a31-b4fd-70ecd6668da2/' }
+  { src: '0-1certificate.png' , link: 'https://app.100xdevs.com/certificate/verify/RER2RZEI' }
 
   
 ];

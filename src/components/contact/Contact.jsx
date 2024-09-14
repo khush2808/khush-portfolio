@@ -38,7 +38,7 @@ const Contact = () => {
 		setTimeout(() => {
 			setSuccess(false);
 		}
-		, 1500);
+		, 500);
     emailjs
       .sendForm(
         "service_6zgu0s7",

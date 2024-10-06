@@ -81,7 +81,7 @@ const Hero = () => {
             <motion.button
               variants={textVariants} className="resume"
             >
-              My Socials 
+              My Coding Profiles & Socials
 							< FaExternalLinkAlt style = {{marginLeft:"4px"}} />
             </motion.button>
             </a>

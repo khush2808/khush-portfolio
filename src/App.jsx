@@ -9,36 +9,36 @@ import Skills from "./components/skills/Skills";
 import Certification from "./components/certifications/Certification";
 
 const App = () => {
-  
-  return <div>
-    <Cursor></Cursor>
-    <section id="Homepage">
-      <Navbar/>
-      <Hero/>
-    </section>
 
-    <section id="Skills"><Parallax  type="skills"/></section>
+	return <div>
+		<Cursor></Cursor>
+		<section id="Homepage">
+			<Navbar style={{ zIndex: 10000000 }} />
+			<Hero />
+		</section>
 
-    <section><Skills/></section>
+		<section id="Skills"><Parallax type="skills" /></section>
 
-    <section id="Certification"><Parallax  type="certification"/></section>
+		<section><Skills /></section>
 
-    <section><Certification/></section>
-    
-    
+		<section id="Certification"><Parallax type="certification" /></section>
+
+		<section><Certification /></section>
 
 
-    <section id="Portfolio"><Parallax type="portfolio"/></section>
 
-    <Portfolio/>
 
-    <section id="Contact"><Contact></Contact></section> 
-    
-   
-    
-    
-    
-    </div>;
+		<section id="Portfolio"><Parallax type="portfolio" /></section>
+
+		<Portfolio />
+
+		<section id="Contact"><Contact></Contact></section>
+
+
+
+
+
+	</div>;
 };
 
 export default App;

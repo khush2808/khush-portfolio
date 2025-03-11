@@ -2,6 +2,7 @@ import { useEffect, useRef, useState } from "react";
 import "./contact.scss";
 import { motion, useInView } from "framer-motion";
 import emailjs from '@emailjs/browser';
+import { FaLinkedin } from "react-icons/fa";
 
 
 const variants = {
@@ -72,7 +73,8 @@ const Contact = () => {
         </motion.div>
         <motion.div className="item" variants={variants}>
           <h2>LinkedIn</h2>
-          <span><a href="https://www.linkedin.com/in/khush-shah-a32a38248/" target="_blank" rel="noreferrer">Khush Shah</a></span>
+          <span><a href="https://www.linkedin.com/in/khush2808/" target="_blank" rel="noreferrer">Khush Shah <FaLinkedin/>
+					</a></span>
         </motion.div>
         <motion.div className="item" variants={variants}>
           <h2>Phone</h2>
